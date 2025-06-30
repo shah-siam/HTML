@@ -1,0 +1,54 @@
+/* basic.css */
+
+/* Body background and font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c9e7f2;
+    color: #408e39;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Header */
+h1 {
+    color: #155da6;
+    text-align: center;
+    font-size: 35px;
+}
+
+/* Paragraph */
+p {
+    font-size: 24px;
+    line-height: 1.6;
+    color : #18173f;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+/* Image Styling */
+img {
+    display: block;
+    margin: 20px auto;
+    border: 2px solid #5e56b1;
+    border-radius: 20px;
+    max-width: 100%;
+    
+
+}
+
+/* Fixed YouTube link */
+.fixed-link {
+    position: fixed;
+    top: 20px;
+    right: 23px;
+    background-color: #18904c;
+    color: white;
+    padding: 12px 15px;
+    text-decoration:none;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.fixed-link:hover {
+    background-color: #30a81b;
+}

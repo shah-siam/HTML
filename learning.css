@@ -1,0 +1,81 @@
+/* learning.css */
+
+/* Reset and base styles */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form container */
+.form-container {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* Facebook logo */
+.logo img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+/* Input fields */
+.user-input input {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* Log in button */
+.nav-link button {
+    width: 100%;
+    padding: 15px;
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Forgotten password link */
+.Forgotten {
+    display: inline-block;
+    margin-top: 15px;
+    color: #1877f2;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+/* Create account button */
+.new-account button {
+    margin-top: 25px;
+    padding: 12px 20px;
+    background-color: white;
+    color: #1877f2;
+    border: 1px solid #1877f2;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Meta logo */
+.new-account img {
+    margin-top: 20px;
+    width: 60px;
+    opacity: 0.8;
+}
