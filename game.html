@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Konami Code Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 100px;
+    }
+    #message {
+      font-size: 24px;
+      color: green;
+      margin-top: 20px;
+      display: none;
+    }
+  </style>
+</head>
+<body>
+  <h1>Try typing the Konami Code!</h1>
+  <p>↑ ↑ ↓ ↓ ← → ← → B A</p>
+  <div id="message">🎉 Konami Code Activated! You found the secret! 🎉</div>
+
+  <script>
+    const konamiCode = [38,38,40,40,37,39,37,39,66,65];
+    let konamiIndex = 0;
+
+    window.addEventListener('keydown', function(e) {
+      if (e.keyCode === konamiCode[konamiIndex]) {
+        konamiIndex++;
+        if (konamiIndex === konamiCode.length) {
+          // Show secret message
+          document.getElementById('message').style.display = 'block';
+          konamiIndex = 0;
+        }
+      } else {
+        konamiIndex = 0;
+      }
+    });
+  </script>
+</body>
+</html>
