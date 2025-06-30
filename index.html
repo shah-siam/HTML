@@ -18,7 +18,7 @@
     }
   </style>
 </head>
-<body>
+<body tabindex="0" onload="this.focus();">
   <h1>Try typing the Konami Code!</h1>
   <p>↑ ↑ ↓ ↓ ← → ← → B A</p>
   <div id="message">🎉 Konami Code Activated! You found the secret! 🎉</div>
@@ -31,7 +31,6 @@
       if (e.keyCode === konamiCode[konamiIndex]) {
         konamiIndex++;
         if (konamiIndex === konamiCode.length) {
-          // Show secret message
           document.getElementById('message').style.display = 'block';
           konamiIndex = 0;
         }
