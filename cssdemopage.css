@@ -1,0 +1,58 @@
+h1{
+    color: blue;
+    font-size: 30px;
+    text-align: center;
+}
+p {
+    color: rgb(90, 108, 90);
+    font-size: 20px;
+    line-height: 1.5;
+    a{
+        display:block; /* This is for take the whole line ,beacuse <a> tag doesnt care about text align */
+        color: rgb(24, 134, 18);
+        text-align:center;
+    }
+}.forbox {
+  width: 100px;
+  height: 30px;
+  padding: 10px;
+  background-color: #fb2020;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  margin: 20px auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  font-family:sans-serif;
+  color: #fff;
+  font-size: 20px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;     /* vertical center */
+  justify-content: center; /* horizontal center */
+}
+.button{
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    background-color: #4747ef;
+    border: 1px solid #ddd;
+    border-radius: 55px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(9, 15, 6, 0.1);
+
+    font-family:sans-serif;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+
+    display: flex;
+    align-items: center;     /* vertical center */
+    justify-content: center; /* horizontal center */
+}
+
+
+
+
