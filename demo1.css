@@ -1,0 +1,42 @@
+/* Apply background and default styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d5dbdd;
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+
+/* Container style */
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+}
+
+/* Heading style */
+h1 {
+    color: #333;
+}
+
+/* Paragraph style */
+p {
+    color: #666;
+    font-size: 18px;
+}
+
+/* Button style */
+.my-button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color .3s ease;
+}
+
+.my-button:hover {
+    background-color: #2980b9;
+}
